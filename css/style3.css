@@ -19,31 +19,35 @@ header {
 	margin-bottom: 20px;
 }
 
+.thumbnail { 
+    position: relative; 
+   } 
 
+.CajaTexto { 
+    position: absolute; 
+    top: 5%; 
+    padding-right: 15px;  */
+    width: 100%; 
+   } 
 
 .texto{
-    position:absolute;
     color: #fff;
     text-align: right;
     font-size: 2rem;
     transform: traslate(-50%, -50%);
     text-shadow: 0 0 8px rgba(0,0,0,0.8);
     align-items: right;
-    top: 100px;
-    left: auto;
-    right: 3px ;
+    top: 1%; 
     
+    right: 3px ;
 }
 .textoP{
-    font-size: 1em;
+    font-size: 95%;
     padding-left: 30;
-    top: 30%;
     word-wrap: break-word;
-    margin-left: 20%;
-    position:absolute;
+    margin-left: 30%;
     color: #fff;
     text-align: right;
-  
     text-shadow: 0 0 8px rgba(0,0,0,0.8);
 }
 
@@ -79,3 +83,6 @@ footer {
 footer .container-fluid  nav ul li a{
         color: rgb(250, 249, 248) !important;
     }
+
+
+   
